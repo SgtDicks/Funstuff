@@ -167,22 +167,6 @@ The Steam Deck client typically:
 - Drives via `POST /cmd`
 - Can control Z-lift via `POST /cmd` (`Z+`, `Z-`, `Z0`) or `POST /zlift`
 
-Suggested bindings in the client UI:
-
-- Z▲ / Z▼ buttons (step moves)
-- Z HOME preset button
-- Optional slider (absolute position)
-
----
-
-## Suggested next features
-
-- **Z-lift slider** in the HUD (with min/max and current position)
-- **Servo calibration page** (live min/max/home test with safety lock)
-- **Camera self-test** (per-camera fps/last-frame age + reconnect button)
-- **Config download/upload** in the web UI
-- **Auth token** (simple shared secret) if used outside a trusted LAN
-
 ---
 
 ## Troubleshooting
