@@ -1,4 +1,4 @@
-# Pi Robot Server (Pi_Server.py)
+# Pi Robot Server (Athena.py)
 
 A lightweight HTTP server intended to run on a Raspberry Pi to control a small robot and provide a simple web HUD + API that a Steam Deck / desktop client can talk to.
 
@@ -30,7 +30,7 @@ python3 -m pip install flask requests
 ### 2) Run
 
 ```bash
-python3 Pi_Server.py
+python3 Athena.py
 ```
 
 By default the server listens on:
@@ -200,6 +200,6 @@ Suggested bindings in the client UI:
 
 ## Files
 
-- `Pi_Server.py` – main server
+- `Athena.py` – main server
 - `robot_config.json` – saved configuration (auto-created)
 - `README.md` – this file
